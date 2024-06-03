@@ -7,6 +7,8 @@ const HomeScreen = ({ navigation }) => {
       <Button title="Business Center" onPress={() => navigation.navigate('Business')} />
       <View style={styles.buttonSpacer} />
       <Button title="Drogasil" onPress={() => navigation.navigate('Drogasil')} />
+      <View style={styles.buttonSpacer} />
+
     </View>
   );
 };

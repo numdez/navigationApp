@@ -8,6 +8,8 @@ import RegisterScreen from './src/screens/RegisterScreen';
 import LoginScreen from './src/screens/LoginScreen';
 import BusinessScreen from './src/screens/BusinessScreen';
 import DrogasilScreen from './src/screens/DrogasilScreen';
+import MapScreen from './src/screens/MapScreen';
+import MappScreen from './src/screens/MappScreen';
 
 const Stack = createNativeStackNavigator();
 
@@ -20,6 +22,8 @@ export default function App () {
         <Stack.Screen name="Home" component={HomeScreen} />
         <Stack.Screen name="Business" component={BusinessScreen} options={{ title: 'Estacionamento Business Center' }} />
         <Stack.Screen name="Drogasil" component={DrogasilScreen} options={{ title: 'Estacionamento Drogasil' }} />
+        <Stack.Screen name="Map" component={MapScreen} options={{ title: 'Mapa Estacionamento'}} />
+        <Stack.Screen name="Mapp" component={MappScreen} options={{ title: 'Mapa Estacionamento 2'}} />
       </Stack.Navigator>
     </NavigationContainer>
   );
