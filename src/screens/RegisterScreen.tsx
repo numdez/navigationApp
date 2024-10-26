@@ -51,7 +51,7 @@ const VisitanteForm = ({ navigation }) => {
     // Lógica de registro para visitante
     navigation.reset({
       index: 0,
-      routes: [{ name: 'Home' }],
+      routes: [{ name: 'Login' }],
     });
   };
 
@@ -99,7 +99,7 @@ const AlunoForm = ({ navigation }) => {
     // Lógica de registro para aluno
     navigation.reset({
       index: 0,
-      routes: [{ name: 'Home' }],
+      routes: [{ name: 'Login' }],
     });
   };
 
@@ -152,7 +152,7 @@ const ColaboradorForm = ({ navigation }) => {
     // Lógica de registro para colaborador
     navigation.reset({
       index: 0,
-      routes: [{ name: 'Home' }],
+      routes: [{ name: 'Login' }],
     });
   };
 
